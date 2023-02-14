@@ -16,6 +16,7 @@ function Home() {
   const navigate = useNavigate();
   const ReverseRedBorder = reverse(RedBorder);
   const count = useCounter();
+  
   const [ isPopupOpen, setIsPopupOpen ] = useState(true);
 
   const innerBind = (num, msg) => {
